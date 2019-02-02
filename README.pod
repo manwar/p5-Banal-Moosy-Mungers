@@ -12,10 +12,7 @@ version 0.002
 
 =head1 SUPPORT
 
-Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Banal-Moosy-Mungers>
-(or L<bug-Banal-Moosy-Mungers@rt.cpan.org|mailto:bug-Banal-Moosy-Mungers@rt.cpan.org>).
-
-I am also usually active on irc, as 'ether' at C<irc.perl.org>.
+Bugs may be submitted through issues on the related github repository.
 
 =head1 AUTHOR
 
