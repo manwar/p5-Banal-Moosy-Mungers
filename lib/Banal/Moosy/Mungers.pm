@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Banal::Moosy::Mungers;
-# vim: set ts=8 sts=4 sw=4 tw=115 et :
+# vim: set ts=2 sts=2 sw=2 tw=115 et :
 # ABSTRACT: Provide several MUNGER functions that may be use in conjunction with C<MooseX::MungeHas>.
 # KEYWORDS: Munge Has has MungeHas MooseX::MungeHas Moose MooseX Moo MooX
 
