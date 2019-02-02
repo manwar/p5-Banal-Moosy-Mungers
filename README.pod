@@ -8,11 +8,43 @@ Banal::Moosy::Mungers - Provide several MUNGER functions that may be use in conj
 
 =head1 VERSION
 
-version 0.002
+version 0.001
+
+=head1 SYNOPSIS
+
+=head1 DESCRIPTION
+
+=for stopwords haz ro
+
+use Banal::Moosy::Mungers  qw(mhs_specs);
+use Moose;
+use MooseX::MungeHas {
+    haz =>  [  sub {; mhs_specs( is => 'ro', init_arg => undef, lazy => 1 ) },
+            ]
+  };
+
+=for stopwords TABULO
+
+This module provides several mungers that may be use in conjunction with C<MooseX::MungeHas>.
+
+=head2 EXPORT_OK
+
+=over 4
+
+=item *
+
+mhs_lazy_ro
+
+=item *
+
+mhs_specs
+
+=back
 
 =head1 SUPPORT
 
-Bugs may be submitted through issues on the related github repository.
+Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Dist/Display.html?Name=Banal-Moosy-Mungers>
+(or L<bug-Banal-Moosy-Mungers@rt.cpan.org|mailto:bug-Banal-Moosy-Mungers@rt.cpan.org>).
 
 =head1 AUTHOR
 
