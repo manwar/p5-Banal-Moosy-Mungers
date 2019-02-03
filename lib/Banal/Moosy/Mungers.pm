@@ -117,9 +117,9 @@ __END__
 
 =for stopwords haz ro
 
-use Banal::Moosy::Mungers  qw(mhs_specs);
-use Moose;
-use MooseX::MungeHas {
+  use Banal::Moosy::Mungers  qw(mhs_specs);
+  use Moose;
+  use MooseX::MungeHas {
     haz =>  [  sub {; mhs_specs( is => 'ro', init_arg => undef, lazy => 1 ) },
             ]
   };
